@@ -1,6 +1,6 @@
 # HiRe-MoMa
 
-This is the repository that contains source code for the [HiRe-MoMa website](https://zhefeigong.github.io/hiremoma-robot/), adapted from [CARP](https://carp-robot.github.io/) and [KORR](https://zhefeigong.github.io/korr-robot/).
+This is the repository that contains source code for the [HiRe-MoMa website](https://hire-moma.github.io/), adapted from [CARP](https://carp-robot.github.io/) and [KORR](https://zhefeigong.github.io/korr-robot/).
 
 If you find HiRe-MoMa useful for your work please cite:
 ```
