@@ -1,0 +1,143 @@
+:root {
+  --brand: #3c76af;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  color: #363636;
+}
+
+.title, .publication-name, .publication-authors, .highlight-num {
+  font-family: 'Google Sans', sans-serif;
+}
+
+.publication-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--brand);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.6rem;
+}
+
+.publication-title {
+  line-height: 1.3;
+}
+
+.brand {
+  color: var(--brand);
+}
+
+.publication-authors a {
+  color: var(--brand);
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+
+.venue {
+  color: rgb(177, 44, 44);
+  font-weight: 700;
+}
+
+.publication-links {
+  margin-top: 1.2rem;
+}
+
+section.section {
+  padding: 1.5rem;
+}
+
+.section h2.title {
+  margin-top: 1.5rem;
+}
+
+.section h3.title {
+  margin-top: 2.5rem;
+}
+
+video, figure img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+}
+
+figure {
+  margin: 1rem 0;
+}
+
+.media-card {
+  padding: 1rem 1rem 0.75rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.highlights {
+  margin-top: 1.5rem;
+  color: #666;
+}
+
+.highlight-num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.clip-title {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.table th:not([align]), .table td:not([align]) {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.table td.ours {
+  background: #e8f0f8;
+  font-weight: 600;
+}
+
+.table small {
+  color: #888;
+}
+
+.tabs.is-toggle li.is-active a {
+  background-color: var(--brand);
+  border-color: var(--brand);
+}
+
+mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.footer a {
+  color: var(--brand);
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .publication-name {
+    font-size: 2.6rem;
+  }
+}
