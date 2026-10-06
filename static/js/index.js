@@ -12,3 +12,17 @@ document.querySelectorAll('#compare-tabs a').forEach(tab => {
     });
   });
 });
+
+const copyButton = document.querySelector('[data-copy-bibtex]');
+if (copyButton) {
+  const label = copyButton.querySelector('[data-copy-label]');
+  copyButton.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(document.querySelector('[data-bibtex]').textContent);
+      label.textContent = 'Copied!';
+    } catch (e) {
+      label.textContent = 'Copy failed';
+    }
+    setTimeout(() => { label.textContent = 'Copy'; }, 1600);
+  });
+}
