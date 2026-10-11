@@ -59,10 +59,9 @@ body {
   line-height: 1.6;
 }
 
-.notes a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.notes a, .notes a:hover {
+  color: inherit !important;
+  text-decoration: none;
 }
 
 .venue {
