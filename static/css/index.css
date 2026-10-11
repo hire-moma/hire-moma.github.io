@@ -54,6 +54,17 @@ body {
   margin: 0 0.3rem;
 }
 
+.notes {
+  margin-top: 0.3rem;
+  line-height: 1.6;
+}
+
+.notes a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .venue {
   color: rgb(177, 44, 44);
   font-weight: 700;
